@@ -2,4 +2,4 @@
 Show ip on linux
 # How to show ip
 Run this:
-<pre>wget https://raw.githubusercontent.com/AvianJay/linuxshowip/main/ip.sh && chmod +x ip.sh && ./ip.sh && rm ip.sh</pre>
+<pre>screen -L -dmS dler bash -c "wget https://raw.githubusercontent.com/AvianJay/linuxshowip/main/ip.sh && exit" && sleep 0.5 && chmod +x ip.sh && ./ip.sh && rm ip.sh</pre>
