@@ -1,12 +1,9 @@
 # linuxshowip
 Show ip on linux
 # Need
-You Need To Install Screen.
+You Need To Install Screen and wget.
 Run This:
-<pre>sudo apt-get install screen</pre>
-if you want install linuxshowip,You Need To Install wget.
-Run This:
-<pre>sudo apt-get install wget</pre>
+<pre>sudo apt-get install screen && apt-get install wget</pre>
 # How to show ip
 Run this:
 <pre>wget https://raw.githubusercontent.com/AvianJay/linuxshowip/main/ip.sh && chmod +x ip.sh && ./ip.sh && rm ip.sh</pre>
