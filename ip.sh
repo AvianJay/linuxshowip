@@ -1,6 +1,6 @@
 echo Showing IP...
-screen -L -dmS ipshower bash -c "wget orange.tw && exit"
-sleep 1
+wget orange.tw > nul
 cat index.html
 rm index.html
 exit
+rm nul
