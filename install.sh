@@ -1,5 +1,5 @@
 cd /bin
-sudo wget https://raw.githubusercontent.com/AvianJay/linuxshowip/main/ip.sh > nul
+sudo wget https://raw.githubusercontent.com/AvianJay/linuxshowip/main/ip.sh
 sudo mv ip.sh showip
 sudo chmod +x showip
 echo linuxshowip installed!
