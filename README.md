@@ -15,3 +15,8 @@ Run this:
 <pre>wget https://raw.githubusercontent.com/AvianJay/linuxshowip/main/install.sh > nul && chmod +x install.sh && ./install.sh && rm install.sh</pre>
 If you want to install on Termux,Run This:
 <pre>wget https://raw.githubusercontent.com/AvianJay/linuxshowip/main/installter.sh > nul && chmod +x installter.sh && ./installter.sh && rm installter.sh</pre>
+# How to uninstall
+Run this:
+<pre>cd /bin && sudo rm showip</pre>
+If you want to uninstall on Termux,Run This:
+<pre>cd ~/../usr/bin && rm showip</pre>
