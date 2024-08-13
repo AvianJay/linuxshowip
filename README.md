@@ -1,7 +1,7 @@
 # linuxshowip
 Show ip on linux
 # Need
-You Need To Install wget.
+You Need To Install curl.
 Run This:
 <pre>sudo apt-get install curl</pre>
 If this is not working, Run This:
