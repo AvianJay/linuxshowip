@@ -3,8 +3,8 @@ Show ip on linux
 # Need
 You Need To Install wget.
 Run This:
-<pre>sudo apt-get install wget</pre>
-If This Not Work It ,Run This:
+<pre>sudo apt-get install curl</pre>
+If this is not working, Run This:
 <pre>sudo apt-get update</pre>
 (Maybe Help You)
 # How to show ip
@@ -20,3 +20,4 @@ Run this:
 <pre>cd /bin && sudo rm showip</pre>
 If you want to uninstall on Termux,Run This:
 <pre>cd ~/../usr/bin && rm showip</pre>
+# Powered by orange.tw lol
